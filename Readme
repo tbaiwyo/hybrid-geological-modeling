@@ -3,7 +3,7 @@ The is the code for paper "Hybrid Geological Modeling: Combing Machine Learning 
 Notes:
 1. The code is written based on Torch. Torch is available at: http://torch.ch/docs/getting-started.html;
 2. The code is running with GPU. There are many available guides about the procedure of installing CUDA and CuDNN, such as: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html;
-3. Here, we give a 3D categorical example. The training image and reference image for CCSIM (avaulable at: https://github.com/SCRFpublic/MS_CCSIM), and the training image and trained model for CNN are available at: https://www.dropbox.com/sh/8he3obpcvk9111p/AAA8kXdDVdRjqm6mpZpwOsTOa?dl=0;
+3. Here, we give a 3D categorical example. The training image and reference image for CCSIM (Code for CCSIM is avaulable at: https://github.com/SCRFpublic/MS_CCSIM), and the training image and trained model for CNN are available at: https://www.dropbox.com/sh/8he3obpcvk9111p/AAA8kXdDVdRjqm6mpZpwOsTOa?dl=0;
 4. To train the model, running: th train.lua;
 5. To test the model, running: th test.lua.
 
